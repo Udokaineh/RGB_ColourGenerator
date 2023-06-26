@@ -1,0 +1,128 @@
+.container {
+    width: 65%;
+    height: auto;
+    background-color: #f7f0f3;
+    padding: 1rem 2rem 2rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #161616
+}
+
+.boxes {
+    width: 90%;
+    margin: 2rem 0 3rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.25rem;
+}
+
+.firstBox {
+    background-color: rgb(221, 178, 205);
+    width: 15.625rem;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.secondBox {
+    background-color: rgb(110, 213, 10);
+    width: 15.625rem;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.thirdBox {
+    background-color: rgb(111, 162, 251);
+    width: 15.625rem;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+  text-align: center;
+  cursor: pointer;
+}
+p:hover{
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button {
+    background-color: rgb(136, 59, 4);
+    padding: 14px 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(176, 75, 2);
+    padding: 14px 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+/* #f7f0f3; */
+/* rgb(226, 189, 205) */
+/* #E65C84 */
+/* #ED93A6 */
+/* #84B2FA */
+/* #4137E9 */
+
+/* MEDIA QUARIES */
+@media(max-width: 414px) {
+    
+    .container {
+        width: 100%;
+        padding: 1rem 2rem 2rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .boxes {
+        width: 100%;
+        margin: 2rem 0 3rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .firstBox {
+        width: 100%;
+    }
+    .secondBox {
+        width: 100%;
+    }
+    .thirdBox {
+        width: 100%;
+    }
+
+    .buttonDiv {
+        width: 100%;
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+        height: 3rem;
+        font-size: 16px;
+    }
+}
